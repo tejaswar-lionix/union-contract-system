@@ -3317,3 +3317,4 @@ def extra_contracts_910(x):
 def extra_contracts_911(x):
     """Extra distinct 911 for contracts"""
     return x
+def genuine_1(x): return x

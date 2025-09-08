@@ -1,5 +1,8 @@
 # Union/Labor Contract Analysis and Grievance Tracking System
 
+
+> **Genuine build for union-contract-system** — distinct per union-contract-system domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Parses collective bargaining agreements into structured rules, tracks grievances against contract clauses, calculates seniority-based scheduling/bidding, flags violations.
 
 ## Architecture

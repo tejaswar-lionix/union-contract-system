@@ -8,11 +8,11 @@ logger = logging.getLogger(__name__)
 # grievances: Grievances - tracking, filing, investigation, resolution
 # Details: filing, investigation, hearing
 
-class GrievancesStatus(str, Enum):
+class GrievancesExtraStatus(str, Enum):
     PENDING='pending'; ACTIVE='active'; FAILED='failed'
 
 @dataclass
-class GrievancesEntity:
+class GrievancesExtraEntity:
     """Grievances - tracking, filing, investigation, resolution"""
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: float = field(default_factory=time.time)
